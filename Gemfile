@@ -209,6 +209,7 @@ group :development do
   gem 'librarian', '>= 0.0.25', require: false
   gem 'annotate'
   gem 'foreman', require: false
+  gem 'rerun'
 end
 
 # this is an optional gem, it provides a high performance replacement

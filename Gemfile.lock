@@ -338,6 +338,8 @@ GEM
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
     ref (1.0.5)
+    rerun (0.8.0)
+      listen
     rest-client (1.7.2)
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
@@ -521,6 +523,7 @@ DEPENDENCIES
   rbtrace
   redcarpet
   redis
+  rerun
   rest-client
   rinku
   rmmseg-cpp

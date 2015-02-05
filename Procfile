@@ -1,2 +1,2 @@
-web: bundle exec rails server -p $PORT
-worker: bundle exec sidekiq -e $RAILS_ENV
+web: bundle exec rails server 
+workers: bundle exec rerun --background --dir app,db,lib --pattern '{**/*.rb}' -- bundle exec sidekiq --verbose
